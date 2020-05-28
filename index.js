@@ -39,8 +39,10 @@ app.get('/react', (req, res) => {
       <body>
         <div class='container'>
         <br><br>
+            <div class="col-6">
             <h1>Twitter Replica~</h1>
             <div id="app"></div>
+            </div>
         </div>
         <script type="text/javascript" src="/main.js"></script>
          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
